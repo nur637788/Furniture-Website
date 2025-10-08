@@ -1,0 +1,153 @@
+ [
+   {
+    "id": "1",
+     "name": "Metal Twin Bed",
+     "size": "Twin",
+     "material": "Metal",
+     "color": "White",
+     "price": "৳13500",
+      "rating": 3.8,
+      "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg"
+    },
+    {
+  "id": "2",
+  "name": "Leather Double Bed",
+  "size": "Double",
+  "material": "Leather",
+  "color": "Black",
+  "price": "৳15000",
+  "rating": 4.0,
+  "image": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg"
+},
+{
+  "id": "3",
+  "name": "Oak Queen Bed",
+  "size": "Queen",
+  "material": "Oak",
+  "color": "Grey",
+  "price": "৳17500",
+  "rating": 4.2,
+  "image": "https://images.pexels.com/photos/164877/pexels-photo-164877.jpeg"
+},
+{
+  "id": "4",
+  "name": "Pine King Bed",
+  "size": "King",
+  "material": "Pine",
+  "color": "Beige",
+  "price": "৳20000",
+  "rating": 4.5,
+  "image": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+},
+{
+  "id": "5",
+  "name": "Wood Single Bed",
+  "size": "Single",
+  "material": "Wood",
+  "color": "Brown",
+  "price": "৳22000",
+  "rating": 4.7,
+  "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg"
+},
+{
+  "id": "6",
+  "name": "Metal Twin Bed",
+  "size": "Twin",
+  "material": "Metal",
+  "color": "White",
+  "price": "৳24000",
+  "rating": 4.9,
+  "image": "https://images.pexels.com/photos/1866148/pexels-photo-1866148.jpeg"
+},
+{
+  "id": "7",
+  "name": "Leather Double Bed",
+  "size": "Double",
+  "material": "Leather",
+  "color": "Black",
+  "price": "৳26000",
+  "rating": 5.0,
+  "image": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg"
+},
+{
+  "id": "8",
+  "name": "Oak Queen Bed",
+  "size": "Queen",
+  "material": "Oak",
+  "color": "Grey",
+  "price": "৳12000",
+  "rating": 3.5,
+  "image": "https://images.pexels.com/photos/164877/pexels-photo-164877.jpeg"
+},
+{
+  "id": "9",
+  "name": "Pine King Bed",
+  "size": "King",
+  "material": "Pine",
+  "color": "Beige",
+  "price": "৳13500",
+  "rating": 3.8,
+  "image": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+},
+{
+  "id": "10",
+  "name": "Wood Single Bed",
+  "size": "Single",
+  "material": "Wood",
+  "color": "Brown",
+  "price": "৳15000",
+  "rating": 4.0,
+  "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg"
+},
+{
+  "id": "11",
+  "name": "Metal Twin Bed",
+  "size": "Twin",
+  "material": "Metal",
+  "color": "White",
+  "price": "৳17500",
+  "rating": 4.2,
+  "image": "https://images.pexels.com/photos/1866148/pexels-photo-1866148.jpeg"
+},
+{
+  "id": "12",
+  "name": "Leather Double Bed",
+  "size": "Double",
+  "material": "Leather",
+  "color": "Black",
+  "price": "৳20000",
+  "rating": 4.5,
+  "image": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg"
+},
+{
+  "id": "13",
+  "name": "Oak Queen Bed",
+  "size": "Queen",
+  "material": "Oak",
+  "color": "Grey",
+  "price": "৳22000",
+  "rating": 4.7,
+  "image": "https://images.pexels.com/photos/164877/pexels-photo-164877.jpeg"
+},
+{
+  "id": "14",
+  "name": "Pine King Bed",
+  "size": "King",
+  "material": "Pine",
+  "color": "Beige",
+  "price": "৳24000",
+  "rating": 4.9,
+  "image": "https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg"
+},
+{
+  "id": "15",
+  "name": "Wood Single Bed",
+  "size": "Single",
+  "material": "Wood",
+  "color": "Brown",
+  "price": "৳26000",
+  "rating": 5.0,
+  "image": "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg"
+}
+
+ ]
