@@ -11,9 +11,9 @@ function Home() {
   return (
     <div id='home' className='bg-white'>
 
-      <div className="hero min-h-screen" style={{
-    backgroundImage:"url(/images/hero-image1.png)" }}
->
+      <div data-aos='zoom-in' className="hero min-h-screen" style={{
+    backgroundImage:"url(/images/hero-image1.png)" }}>
+
   <div className="hero-overlay"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">

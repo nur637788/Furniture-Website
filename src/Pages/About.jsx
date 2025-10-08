@@ -1,7 +1,10 @@
 import React from "react";
 import Footer from './../components/Footer';
+import { useNavigate } from "react-router-dom";
+
 
 function About() {
+  const naviget = useNavigate();
   return (
     <div>
     <section className="bg-gray-900 text-gray-100 py-16 px-8">
@@ -28,8 +31,8 @@ function About() {
             <li>✅ Trusted by Thousands</li>
           </ul>
 
-          <button className="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
-            Shop Now
+          <button onClick={()=>naviget('/contact')} className="bg-pink-600 hover:bg-pink-700 text-white font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
+            Contact us
           </button>
         </div>
 
@@ -42,6 +45,28 @@ function About() {
           />
         </div>
       </div>
+
+            {/* Payment Methode section*/}
+        <div className="mt-10 pt-10">
+          <h2 className="text-center text-2xl font-bold">Our <i>Payment</i> Methode</h2>
+          <div className="py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-7">
+          <div className="bg-gray-600 rounded-md hover:scale-110 duration-300">
+            <img data-aos='zoom-in' className="h-60 w-full" src="/images/bkash.jpg" alt="bkash-image" />
+            <p className="p-5"><b>Bkash Payment:</b> You can purchase merit from our website through <b>Bkash</b> Payment.</p>
+          </div>
+          <div className="bg-gray-600 rounded-md hover:scale-110 duration-300">
+            <img data-aos='zoom-in' className="h-60 w-full" src="/images/rocket.png" alt="bkash-image" />
+            <p className="p-5"><b>Rocket Payment:</b> You can purchase merit from our website through <b>Rocket</b> Payment.</p>
+          </div>
+          <div className="bg-gray-600 rounded-md hover:scale-110 duration-300">
+            <img data-aos='zoom-in' className="h-60 w-full" src="/images/bank.jpg" 
+            alt="bkash-image" />
+            <p className="p-5"><b>Bank Transfare:</b> You can purchase merit from our website through <b>Bank</b> transfer.</p>
+          </div>
+        </div>
+        </div>
+
+
     </section>
 
       <Footer />

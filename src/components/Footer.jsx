@@ -47,7 +47,7 @@ function Footer() {
             </div>
 
         </div>
-        <h3 data-aos='fade-up' className='text-center py-2 bg-gray-700'>&copy; Copyrigth Home Decor. All Right Revers</h3>
+        <h3 data-aos='fade-up' className='text-center text-sm py-1 bg-gray-700/70'>&copy; Copyrigth Home Decor. All Right Revers</h3>
     </footer>
   )
 }
