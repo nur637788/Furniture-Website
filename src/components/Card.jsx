@@ -7,7 +7,7 @@ function Card({ id, image, name, price }) {
       {/* image design */}
       <div data-aos='zoom-in' className="relative overflow-hidden ">
         <img src={image} alt={name} loading="lazy"
-          className="w-[100%] h-60 object-cover" />
+          className="w-[100%] h-70 object-cover" />
       </div>
       {/* text design */}
       <div className='p-2 space-y-2 text-center'>

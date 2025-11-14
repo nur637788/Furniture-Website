@@ -136,7 +136,7 @@ function HomeCard() {
                 <h4 className='text-xl font-semibold'>All Product</h4>
                 <button onClick={()=>navigate('/product')}><p className='font-medium cursor-pointer hover:text-blue-700'>See all</p></button>
             </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {products.map((p) => (
           <Card key={p.id} id={p.id} image={p.image} name={p.name} price={p.price}  />
         ))}
