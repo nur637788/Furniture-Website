@@ -4,7 +4,7 @@ import './index.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Provider } from "react-redux";
-import { store } from "./redux/store";
+import { store } from "./Redux/store";
 
 import {
   createBrowserRouter,
