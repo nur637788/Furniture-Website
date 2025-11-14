@@ -13,16 +13,6 @@ Website টি mobile-first ডিজাইন, SEO-friendly meta tags, ও ক�
 
 ---
 
-## ✨ Features
-- হোম পেজ — হিরো সেকশন, ক্যাটাগরি, বেস্টসেলার  
-- প্রোডাক্ট লিস্টিং ও প্রোডাক্ট ডিটেইল পেজ  
-- Add to Cart (একটি প্রোডাক্ট একবারেই যোগ করা যায়)  
-- Navbar-তে লাইভ Cart count  
-- Cart page — image, name, price, Shop Now & Delete অপশন  
-- Responsive layout (mobile, tablet, desktop)  
-- SEO meta tags, sitemap.xml ও robots.txt অনুমোদনযোগ্য ফাইল  
-- সহজে Netlify/Vercel-এ deploy করার উপযোগী
-
 ---
 
 ## 🧰 Tech Stack
