@@ -1,8 +1,10 @@
-import { StrictMode,  } from 'react'
-import { createRoot} from 'react-dom/client'
+import { StrictMode, } from 'react'
+import { createRoot } from 'react-dom/client'
 import './index.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Provider } from "react-redux";
+import { store } from "./redux/store";
 
 import {
   createBrowserRouter,
@@ -24,6 +26,8 @@ import ShopNow from './components/ShopNow'
 import ErrorPage from './components/ErrorPage';
 import TermCondition from './components/TermCondition';
 import PrivacyPolicy from './components/PrivecyPolicy';
+import Cart from './components/CartPage';
+
 
 
 // Animation Diclaration
@@ -40,16 +44,16 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element:<Home></Home>,
+        element: <Home></Home>,
       },
       {
         path: "/product",
-        element:<Products></Products>
+        element: <Products></Products>
       },
-            // Product Detiels dekhanor jonno
-      {                 
+      // Product Detiels dekhanor jonno
+      {
         path: "product/:id",
-        element:<ProductDetiels></ProductDetiels>
+        element: <ProductDetiels></ProductDetiels>
       },
 
       {
@@ -57,29 +61,29 @@ const router = createBrowserRouter([
         element: <About></About>,
       },
 
-      { 
+      {
         path: "/contact",
         element: <Contact></Contact>,
       },
-      
-        // Button Link
-      { 
+
+      // Button Link
+      {
         path: "/chair",
         element: <Chair></Chair>,
       },
-      { 
+      {
         path: "/sofa",
         element: <Sofa></Sofa>,
       },
-      { 
+      {
         path: "/table",
         element: <Table></Table>,
       },
-       { 
+      {
         path: "/bed",
         element: <Bed></Bed>,
       },
-      { 
+      {
         path: "/lamp",
         element: <Lamp></Lamp>,
       },
@@ -95,24 +99,30 @@ const router = createBrowserRouter([
         path: "/errorpage",
         element: <ErrorPage></ErrorPage>
       },
-          // Footer Button Link
+      // Footer Button Link
       {
-        path:'/termcondition',
-        element:<TermCondition></TermCondition>
+        path: '/termcondition',
+        element: <TermCondition></TermCondition>
       },
       {
-        path:'/privacypolicy',
-        element:<PrivacyPolicy></PrivacyPolicy>
+        path: '/privacypolicy',
+        element: <PrivacyPolicy></PrivacyPolicy>
       },
-       
+      {
+        path: '/cart',
+        element: <Cart></Cart>
+      },
 
-       
+
+
     ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <Provider store={store}>
+      <RouterProvider router={router} />
+    </Provider>
   </StrictMode>,
 )

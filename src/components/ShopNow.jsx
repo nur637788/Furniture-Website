@@ -154,7 +154,7 @@ function ShopNow() {
             <button
               type="button"
               onClick={generateRandomNumber}
-              className=" px-3 py-2 rounded-lg text-sm font-semibold bg-gray-600 hover:bg-[#527A9A] hover:scale-105 duration-300">
+              className=" px-3 py-2 rounded-lg text-sm font-semibold bg-gray-600 hover:bg-[#527A9A] hover:scale-105 duration-300 cursor-pointer">
               Generate
             </button>
           </div>
@@ -162,7 +162,7 @@ function ShopNow() {
           {/* From Submit Button */}
           <button
             type="submit"
-            className="w-full bg-gray-600 hover:bg-[#527A9A] hover:scale-95 hover:font-bold duration-300 text-white font-semibold py-3 rounded-lg shadow-lg">
+            className="w-full bg-blue-500 hover:bg-blue-600 hover:scale-95 hover:font-bold duration-300 text-white font-semibold py-3 rounded-lg shadow-lg cursor-pointer">
             Confirm Order
           </button>
         </form>
@@ -170,7 +170,7 @@ function ShopNow() {
             {/* Back Button */}
       <div className=' m-auto pt-5'>
         <button onClick={() => navigate(-1)}
-          className=" px-2 py-1 bg-pink-500 text-white rounded hover:bg-pink-600 transition-colors">
+          className=" px-2 py-1 bg-pink-500 text-white rounded hover:bg-pink-600 transition-colors cursor-pointer">
             ← Go Back </button>
       </div>
       </div>
